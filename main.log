@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.7)  12 MAR 2016 14:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.7)  14 MAR 2016 22:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -538,22 +538,22 @@ Package scrlayer-scrpage Info: auto-selection of `pagestyleset=standard'.
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'abbreviations' with sig. ' m ' on line 311.
+. Defining environment 'abbreviations' with sig. ' m ' on line 325.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'constants' with sig. ' m ' on line 329.
+. Defining environment 'constants' with sig. ' m ' on line 343.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'symbols' with sig. ' m ' on line 347.
+. Defining environment 'symbols' with sig. ' m ' on line 361.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'acknowledgements' with sig. '' on line 365.
+. Defining environment 'acknowledgements' with sig. '' on line 379.
 .................................................
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
@@ -1127,7 +1127,15 @@ File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-(./main.aux (./Chapters/Chapter1.aux) (./Appendices/AppendixA.aux))
+(./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
+(./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux)
+(./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux) (./Appendices/AppendixA.aux
+) (./Appendices/AppendixB.aux) (./Appendices/AppendixC.aux)
+(./Appendices/AppendixD.aux
+
+LaTeX Warning: Label `AppendixA' multiply defined.
+
+) (./Appendices/AppendixE.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -1302,6 +1310,7 @@ Package caption Info: End \AtBeginDocument code.
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
 (scrlayer)             \begin{document} on input line 48.
 Package scrbase Info: activating english \authorshipname on input line 48.
+Package scrbase Info: activating english \responsibilityname on input line 48.
 Package scrbase Info: activating english \byname on input line 48.
 Package scrbase Info: activating english \abbrevname on input line 48.
 Package scrbase Info: activating english \constantsname on input line 48.
@@ -1388,77 +1397,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--117
 1: section
 [3] [4
 
-] [5] [6
+]
+--------------------
+ Responsibility Allocation
+--------------------
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+1: section
+[5
+
+] [6
+
+] [7] [8
 
 ]
 --------------------
  Abstract
 --------------------
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 138.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 161.
 1: section
-[7] [8] [9] [10
+[9] [10] [11] [12
 
 ]
 --------------------
  Acknowledgements
 --------------------
 1: section
-[11] [12
+[13] [14
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 168.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 191.
  (./main.toc
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 19.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 19.
-)
+1: section
+[15])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-
-1: section
-[13] [14
-
-] (./main.lof)
-\tf@lof=\write6
-\openout6 = `main.lof'.
-
-
-1: section
-[15] [16
-
-] (./main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
-
-
-1: section
-[17] [18
-
-]
-1: section
-[19] [20
-
-]
-1: section
-[21] [22
-
-]
-1: section
-[23] [24
-
-]
+ [16]
 --------------------
  Dedicatory
 --------------------
 1: section
-[25] [26
+[17
+
+] [18
 
 ]
 1: section
@@ -1468,168 +1455,180 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10.95> not available
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 27.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 27.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 27.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 31.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
+)
+Overfull \hbox (5.1241pt too wide) in paragraph at lines 19--254
+\T1/ptm/m/n/10.95 Explain ob-jec-tives of the project, out-come, plan-i-fi-ca-t
+ion, re-sults and ex-plain apendix... 
+ []
+
 1: section
 [1
 
 
-] [2]
-Overfull \hbox (15.13953pt too wide) in paragraph at lines 78--79
-[]\T1/ptm/m/n/10.95 Sunil's tem-plate was made avail-able through [][]$\T1/pcr/
-m/n/10.95 http : / / www . LaTeXTemplates .
- []
+]
+\openout2 = `Chapters/Chapter2.aux'.
 
-[3]
-LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 136.
-
-Overfull \hbox (12.56052pt too wide) in paragraph at lines 142--143
-\T1/ptm/m/n/10.95 for this. If you don't want these to be linked, sim-ply re-mo
-ve the []\T1/pcr/m/n/10.95 \href{url}{name}
- []
-
-[4]
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10.95> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 168.
- [5]
-Overfull \hbox (31.4377pt too wide) in paragraph at lines 180--181
-\T1/ptm/m/n/10.95 sided print-ing is as sim-ple as un-com-ment-ing the \T1/pcr/
-m/sl/10.95 oneside \T1/ptm/m/n/10.95 op-tion of the \T1/pcr/m/n/10.95 documentc
-lass
- []
+ (./Chapters/Chapter2.tex [2
 
 
-LaTeX Warning: Citation 'Reference1' on page 6 undefined on input line 194.
+
+]
+Chapter 2.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 18.
+)
+1: section
+[3] [4]
+\openout2 = `Chapters/Chapter3.aux'.
+
+ (./Chapters/Chapter3.tex
+Chapter 3.
+)
+1: section
+[5
 
 
-LaTeX Warning: Citation 'Reference2' on page 6 undefined on input line 194.
+
+] [6]
+\openout2 = `Chapters/Chapter4.aux'.
+
+ (./Chapters/Chapter4.tex
+Chapter 4.
+)
+1: section
+[7
 
 
-LaTeX Warning: Citation 'Reference1' on page 6 undefined on input line 194.
+
+] [8]
+\openout2 = `Chapters/Chapter5.aux'.
+
+ (./Chapters/Chapter5.tex
+Chapter 5.
+)
+1: section
+[9
 
 
-LaTeX Warning: Citation 'Reference3' on page 6 undefined on input line 194.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 196.
-[6]
-Overfull \hbox (58.9596pt too wide) in paragraph at lines 225--225
-[]\T1/pcr/m/n/10 \caption{The effects of treatments X and Y on the four groups 
-studied.}[] 
- []
+] [10]
+\openout2 = `Chapters/Chapter6.aux'.
 
-
-Overfull \hbox (34.9596pt too wide) in paragraph at lines 225--225
-[]\T1/pcr/m/n/10 \tabhead{Groups} & \tabhead{Treatment X} & \tabhead{Treatment 
-Y} \\[] 
- []
-
-[7]
-Overfull \hbox (7.44914pt too wide) in paragraph at lines 257--257
-[]\T1/pcr/m/n/10.95 \caption[An Electron]{An electron (artist's impression).}[]
- 
- []
-
-<Figures/Electron.pdf, id=345, 398.3386pt x 284.52756pt>
-File: Figures/Electron.pdf Graphic file (type pdf)
-
-<use Figures/Electron.pdf>
-Package pdftex.def Info: Figures/Electron.pdf used on input line 262.
-(pdftex.def)             Requested size: 398.33762pt x 284.52686pt.
-
-Overfull \hbox (31.29721pt too wide) in paragraph at lines 262--264
- [][] 
- []
-
-[8 <./Figures/Electron.pdf>]
-Overfull \hbox (29.2148pt too wide) in paragraph at lines 308--309
-\T1/ptm/m/n/10.95 au-to-mat-i-cally builds a ta-ble of Con-tents by look-ing at
- all the []\T1/pcr/m/n/10.95 \chapter{}\T1/ptm/m/n/10.95 , []\T1/pcr/m/n/10.95 
-\section{}
- []
-
-
-Overfull \hbox (18.10527pt too wide) in paragraph at lines 310--311
-[]\T1/ptm/m/n/10.95 The Ta-ble of Con-tents should only list the sec-tions to t
-hree (3) lev-els. A []\T1/pcr/m/n/10.95 chapter{}
- []
-
-
-Overfull \hbox (1.16107pt too wide) in paragraph at lines 310--311
-\T1/ptm/m/n/10.95 level two (2). In your the-sis it is likely that you will eve
-n use a []\T1/pcr/m/n/10.95 subsubsection{}\T1/ptm/m/n/10.95 ,
- []
-
-[9]) [10]
-\openout2 = `Appendices/AppendixA.aux'.
-
- (./Appendices/AppendixA.tex
-Appendix A.
+ (./Chapters/Chapter6.tex
+Chapter 6.
 )
 1: section
 [11
 
 
 
+] [12]
+\openout2 = `Chapters/Chapter7.aux'.
+
+ (./Chapters/Chapter7.tex
+Chapter 7.
+)
+1: section
+[13
+
+
+
 ]
+\openout2 = `Appendices/AppendixA.aux'.
 
-LaTeX Warning: Empty bibliography on input line 254.
+ (./Appendices/AppendixA.tex [14
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
-(./main.aux (./Chapters/Chapter1.aux) (./Appendices/AppendixA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
+
+
+]
+Appendix A.
+)
+1: section
+[15]
+\openout2 = `Appendices/AppendixB.aux'.
+
+ (./Appendices/AppendixB.tex [16
+
+
+
+]
+Appendix B.
+)
+1: section
+[17]
+\openout2 = `Appendices/AppendixC.aux'.
+
+ (./Appendices/AppendixC.tex [18
+
+
+
+]
+Appendix C.
+)
+1: section
+[19]
+\openout2 = `Appendices/AppendixD.aux'.
+
+ (./Appendices/AppendixD.tex [20
+
+
+
+]
+Appendix D.
+)
+1: section
+[21]
+\openout2 = `Appendices/AppendixE.aux'.
+
+ (./Appendices/AppendixE.tex [22
+
+
+
+]
+Appendix E.
+)
+1: section
+[23]
+
+LaTeX Warning: Empty bibliography on input line 281.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 285.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 285.
+(./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
+(./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux)
+(./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux) (./Appendices/AppendixA.aux
+) (./Appendices/AppendixB.aux) (./Appendices/AppendixC.aux)
+(./Appendices/AppendixD.aux) (./Appendices/AppendixE.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 285.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 285.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4FE379FC8DA578D8BACD5529B91070E4;4511.
+(rerunfilecheck)             Checksum: BBBC254217A1F26160033E853FD3BDAA;6323.
 
 
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28952 strings out of 493089
- 593588 string characters out of 6134843
- 711226 words of memory out of 5000000
- 32049 multiletter control sequences out of 15000+600000
- 99511 words of font info for 111 fonts, out of 8000000 for 9000
+ 28862 strings out of 493089
+ 592984 string characters out of 6134843
+ 720004 words of memory out of 5000000
+ 31921 multiletter control sequences out of 15000+600000
+ 70086 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,20n,77p,10404b,1855s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,19n,76p,10404b,2226s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/tim
-es/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (37 pages, 208897 bytes).
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on main.pdf (41 pages, 108450 bytes).
 PDF statistics:
- 492 PDF objects out of 1000 (max. 8388607)
- 427 compressed objects within 5 object streams
- 80 named destinations out of 1000 (max. 500000)
- 230 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 446 PDF objects out of 1000 (max. 8388607)
+ 394 compressed objects within 4 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 329 words of extra memory for PDF output out of 10000 (max. 10000000)
 

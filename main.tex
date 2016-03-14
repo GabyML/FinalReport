@@ -99,10 +99,10 @@
 \noindent We, \authorname, declare that this report titled, 'Annihilation Gamma Ray Laser: A Feasibility Report' and the work presented in it are our own. We confirm that:
 
 \begin{itemize} 
-\item This work was done wholly or mainly while the completion of an undergraduate degree at this University.
-\item Where we have consulted the published work of others, this is always clearly attributed.
-\item Where we have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely our own work.
-\item We have acknowledged all main sources of help.
+ \item This work was done wholly or mainly while the completion of an undergraduate degree at this University.
+ \item Where we have consulted the published work of others, this is always clearly attributed.
+ \item Where we have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely our own work.
+ \item We have acknowledged all main sources of help.
 \end{itemize}
  
 \noindent Signed:\\
@@ -118,6 +118,29 @@
 \noindent Date:\\
 \rule[0.5em]{25em}{0.5pt} % This prints a line to write the date
 \end{declaration}
+
+\cleardoublepage
+
+%----------------------------------------------------------------------------------------
+%	RESPONSIBILITY ALLOCATION PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{responsibility}
+\addchaptertocentry{\responsibilityname}
+
+\noindent The challenges identified during this project were divided per subject. These were distributed as follows. However, it is worth noting that every member of the team was involved in the general development and decision making process of the project. 
+
+\begin{itemize} 
+ \item Positron and Positronium Production and Storage: Mark Jenei, Poonam Sodha and Iarom Madden.
+ \item Bose-Einstein Condensate: Gabriela May Lagunes, Omree Naim and Sujeeporn Tuntipong.
+ \item Laser Engineering and Gamma-Ray Optics: Andreas Angelis Christou and Edward Mercer.
+ \item An Alternative Method: Andreas Angelis Christou and Omree Naim.
+ \item Applications, Manufacturing Cost and Production Time Scale: Andreas Angelis Christou, Gabriela May Lagunes and Edward Mercer.
+\end{itemize}
+ 
+\noindent The general administration of the project and the communication process with the Board and other groups was coordinated by Gabriela May-Lagunes and Poonam Sodha.\\
+ 
+\end{responsibility}
 
 \cleardoublepage
 
@@ -157,7 +180,7 @@ The final outcome of this project is the determination that the production of an
 \begin{acknowledgements}
 \addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
 
-The members of the Group Project 8 would like to thank to Dr. David Cassidy for his support and advice during the production of the this document. Special thanks to Dr. Paul Bartlett and Prof. Allen Mills for their comments and discussions during the development of the project. Finally, we thank the department for the opportunity of working in this subject.  
+The members of the Group Project 8 would like to thank Dr. David Cassidy for his support and advice during the production of the this document. Special thanks to Dr. Paul Bartlett and Prof. Allen Mills for their comments and discussions during the development of the project. Finally, we thank the department for the opportunity of working in this subject.  
 
 \end{acknowledgements}
 
@@ -167,55 +190,55 @@ The members of the Group Project 8 would like to thank to Dr. David Cassidy for 
 
 \tableofcontents % Prints the main table of contents
 
-\listoffigures % Prints the list of figures
+%\listoffigures % Prints the list of figures
 
-\listoftables % Prints the list of tables
+%\listoftables % Prints the list of tables
 
 %----------------------------------------------------------------------------------------
 %	ABBREVIATIONS
 %----------------------------------------------------------------------------------------
 
-\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
+%\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
 
-\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere\\
-\textbf{WSF} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or\\
+%\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere\\
+%\textbf{WSF} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or\\
 
-\end{abbreviations}
+%\end{abbreviations}
 
 %----------------------------------------------------------------------------------------
 %	PHYSICAL CONSTANTS/OTHER DEFINITIONS
 %----------------------------------------------------------------------------------------
 
-\begin{constants}{lr@{${}={}$}l} % The list of physical constants is a three column table
+%\begin{constants}{lr@{${}={}$}l} % The list of physical constants is a three column table
 
 % The \SI{}{} command is provided by the siunitx package, see its documentation for instructions on how to use it
 
-	Speed of Light & $c_{0}$ & \SI{2.99792458e8}{\meter\per\second} (exact)\\
+	%Speed of Light & $c_{0}$ & \SI{2.99792458e8}{\meter\per\second} (exact)\\
 %Constant Name & $Symbol$ & $Constant Value$ with units\\
 
-\end{constants}
+%\end{constants}
 
 %----------------------------------------------------------------------------------------
 %	SYMBOLS
 %----------------------------------------------------------------------------------------
 
-\begin{symbols}{lll} % Include a list of Symbols (a three column table)
+%\begin{symbols}{lll} % Include a list of Symbols (a three column table)
 
-$a$ & distance & \si{\meter} \\
-$P$ & power & \si{\watt} (\si{\joule\per\second}) \\
+%$a$ & distance & \si{\meter} \\
+%$P$ & power & \si{\watt} (\si{\joule\per\second}) \\
 %Symbol & Name & Unit \\
 
-\addlinespace % Gap to separate the Roman symbols from the Greek
+%\addlinespace % Gap to separate the Roman symbols from the Greek
 
-$\omega$ & angular frequency & \si{\radian} \\
+%$\omega$ & angular frequency & \si{\radian} \\
 
-\end{symbols}
+%\end{symbols}
 
 %----------------------------------------------------------------------------------------
 %	DEDICATION
 %----------------------------------------------------------------------------------------
 
-\dedicatory{For/Dedicated to/To my\ldots} 
+\dedicatory{Dedicated to the younger self of any person that has contributed to science in one way or another. All of them were at the beginning the same thing: just a bunch of students.} 
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - CHAPTERS
@@ -229,10 +252,12 @@ $\omega$ & angular frequency & \si{\radian} \\
 % Uncomment the lines as you write the chapters
 
 \include{Chapters/Chapter1}
-%\include{Chapters/Chapter2} 
-%\include{Chapters/Chapter3}
-%\include{Chapters/Chapter4} 
-%\include{Chapters/Chapter5} 
+\include{Chapters/Chapter2} 
+\include{Chapters/Chapter3}
+\include{Chapters/Chapter4} 
+\include{Chapters/Chapter5} 
+\include{Chapters/Chapter6}
+\include{Chapters/Chapter7}
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES
@@ -244,8 +269,10 @@ $\omega$ & angular frequency & \si{\radian} \\
 % Uncomment the lines as you write the Appendices
 
 \include{Appendices/AppendixA}
-%\include{Appendices/AppendixB}
-%\include{Appendices/AppendixC}
+\include{Appendices/AppendixB}
+\include{Appendices/AppendixC}
+\include{Appendices/AppendixD}
+\include{Appendices/AppendixE}
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY

@@ -2,30 +2,43 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \contentsline {chapter}{Declaration of Authorship}{iii}{section*.1}
-\contentsline {chapter}{Abstract}{vii}{section*.2}
-\contentsline {chapter}{Acknowledgements}{xi}{section*.3}
-\contentsline {chapter}{\numberline {1}Chapter Title Here}{1}{chapter.14}
-\contentsline {section}{\numberline {1.1}Welcome and Thank You}{1}{section.15}
-\contentsline {section}{\numberline {1.2}Learning \LaTeX {}}{1}{section.16}
-\contentsline {subsection}{\numberline {1.2.1}A (not so short) Introduction to \LaTeX {}}{1}{subsection.17}
-\contentsline {subsection}{\numberline {1.2.2}A Short Math Guide for \LaTeX {}}{2}{subsection.18}
-\contentsline {subsection}{\numberline {1.2.3}Common \LaTeX {} Math Symbols}{2}{subsection.19}
-\contentsline {subsection}{\numberline {1.2.4}\LaTeX {} on a Mac}{2}{subsection.20}
-\contentsline {section}{\numberline {1.3}Getting Started with this Template}{2}{section.21}
-\contentsline {subsection}{\numberline {1.3.1}About this Template}{2}{subsection.22}
-\contentsline {section}{\numberline {1.4}What this Template Includes}{3}{section.23}
-\contentsline {subsection}{\numberline {1.4.1}Folders}{3}{subsection.24}
-\contentsline {subsection}{\numberline {1.4.2}Files}{3}{subsection.25}
-\contentsline {section}{\numberline {1.5}Filling in Your Information in the \texttt {\bfseries main.tex} File}{4}{section.26}
-\contentsline {section}{\numberline {1.6}The \texttt {main.tex} File Explained}{5}{section.27}
-\contentsline {section}{\numberline {1.7}Thesis Features and Conventions}{6}{section.28}
-\contentsline {subsection}{\numberline {1.7.1}Printing Format}{6}{subsection.29}
-\contentsline {subsection}{\numberline {1.7.2}Using US Letter Paper}{6}{subsection.30}
-\contentsline {subsection}{\numberline {1.7.3}References}{6}{subsection.31}
-\contentsline {subsubsection}{A Note on bibtex}{7}{section*.33}
-\contentsline {subsection}{\numberline {1.7.4}Tables}{7}{subsection.34}
-\contentsline {subsection}{\numberline {1.7.5}Figures}{7}{subsection.36}
-\contentsline {subsection}{\numberline {1.7.6}Typesetting mathematics}{9}{subsection.38}
-\contentsline {section}{\numberline {1.8}Sectioning and Subsectioning}{9}{section.40}
-\contentsline {section}{\numberline {1.9}In Closing}{10}{section.41}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{11}{appendix.42}
+\contentsline {chapter}{Responsibility Allocation}{v}{section*.2}
+\contentsline {chapter}{Abstract}{ix}{section*.3}
+\contentsline {chapter}{Acknowledgements}{xiii}{section*.4}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.7}
+\contentsline {section}{\numberline {1.1}Annihilation Gamma Ray Laser}{1}{section.8}
+\contentsline {chapter}{\numberline {2}Positron and Positronium Production and Storage}{3}{chapter.9}
+\contentsline {section}{\numberline {2.1}Main Section 1}{3}{section.10}
+\contentsline {subsection}{\numberline {2.1.1}Subsection 1}{3}{subsection.11}
+\contentsline {subsection}{\numberline {2.1.2}Subsection 2}{3}{subsection.12}
+\contentsline {section}{\numberline {2.2}Main Section 2}{3}{section.13}
+\contentsline {chapter}{\numberline {3}An Antimatter Bose-Einstein Condensate}{5}{chapter.14}
+\contentsline {section}{\numberline {3.1}Main Section 1}{5}{section.15}
+\contentsline {subsection}{\numberline {3.1.1}Subsection 1}{5}{subsection.16}
+\contentsline {subsection}{\numberline {3.1.2}Subsection 2}{5}{subsection.17}
+\contentsline {section}{\numberline {3.2}Main Section 2}{5}{section.18}
+\contentsline {chapter}{\numberline {4}Gamma Ray Laser: Possible Applications}{7}{chapter.19}
+\contentsline {section}{\numberline {4.1}Main Section 1}{7}{section.20}
+\contentsline {subsection}{\numberline {4.1.1}Subsection 1}{7}{subsection.21}
+\contentsline {subsection}{\numberline {4.1.2}Subsection 2}{7}{subsection.22}
+\contentsline {section}{\numberline {4.2}Main Section 2}{7}{section.23}
+\contentsline {chapter}{\numberline {5}Gamma Ray Laser: Unsolved Challenges}{9}{chapter.24}
+\contentsline {section}{\numberline {5.1}Main Section 1}{9}{section.25}
+\contentsline {subsection}{\numberline {5.1.1}Subsection 1}{9}{subsection.26}
+\contentsline {subsection}{\numberline {5.1.2}Subsection 2}{9}{subsection.27}
+\contentsline {section}{\numberline {5.2}Main Section 2}{9}{section.28}
+\contentsline {chapter}{\numberline {6}Gamma Ray Laser: Construction Cost and Time Scale}{11}{chapter.29}
+\contentsline {section}{\numberline {6.1}Main Section 1}{11}{section.30}
+\contentsline {subsection}{\numberline {6.1.1}Subsection 1}{11}{subsection.31}
+\contentsline {subsection}{\numberline {6.1.2}Subsection 2}{11}{subsection.32}
+\contentsline {section}{\numberline {6.2}Main Section 2}{11}{section.33}
+\contentsline {chapter}{\numberline {7}Final Remarks}{13}{chapter.34}
+\contentsline {section}{\numberline {7.1}Main Section 1}{13}{section.35}
+\contentsline {subsection}{\numberline {7.1.1}Subsection 1}{13}{subsection.36}
+\contentsline {subsection}{\numberline {7.1.2}Subsection 2}{13}{subsection.37}
+\contentsline {section}{\numberline {7.2}Main Section 2}{13}{section.38}
+\contentsline {chapter}{\numberline {A}References}{15}{appendix.39}
+\contentsline {chapter}{\numberline {B}Appendices Description: Supporting Evidence of the Project Development}{17}{appendix.40}
+\contentsline {chapter}{\numberline {C}Project Milestone Plan}{19}{appendix.41}
+\contentsline {chapter}{\numberline {D}Formal Debrief of Project Meetings}{21}{appendix.42}
+\contentsline {chapter}{\numberline {E}Assessment}{23}{appendix.43}

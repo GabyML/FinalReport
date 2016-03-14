@@ -243,7 +243,6 @@ KOMA-script documentation for details.}]{fancyhdr}
 
 \newcommand{\authorshipname}{Declaration of Authorship}
 \providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}{\authorshipname}{Declaration of Authorship} % Declaration of Authorship text for English countries
-\providecaptionname{german,ngerman,austrian,naustrian}{\authorshipname}{Eidesstattliche Erkl\"arung} % Declaration of Authorship text for Germanic countries
 
 \newenvironment{declaration}{
 	\checktoopen
@@ -251,6 +250,21 @@ KOMA-script documentation for details.}]{fancyhdr}
 	\thispagestyle{plain}
 	\null\vfil
 	{\noindent\huge\bfseries\authorshipname\par\vspace{10pt}}
+}{}
+
+%----------------------------------------------------------------------------------------
+%	RESPOSIBILITY ALLOCATION PAGE DESIGN
+%----------------------------------------------------------------------------------------
+
+\newcommand{\responsibilityname}{Responsibility Allocation}
+\providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}{\responsibilityname}{Responsibility Allocation} % Responsibility Allocation text for English countries
+
+\newenvironment{responsibility}{
+	\checktoopen
+	\tttypeout{\responsibilityname}
+	\thispagestyle{plain}
+	\null\vfil
+	{\noindent\huge\bfseries\responsibilityname\par\vspace{10pt}}
 }{}
 
 %----------------------------------------------------------------------------------------
